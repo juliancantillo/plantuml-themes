@@ -44,6 +44,8 @@
 
 !$GREY_800 = "#252f3f"
 
+!$ADD = $GREEN
+
 skinparam dpi                   100
 skinparam shadowing             false
 ' skinparam roundcorner           4
