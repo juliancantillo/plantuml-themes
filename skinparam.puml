@@ -1,0 +1,128 @@
+@startuml
+
+!$gr = "def7ec"
+
+!$AUTHY_COLOR = "#D93831"
+
+' Grey 900
+!$DARK_GREY = "#161e2e"
+' Grey 600
+!$GREY = "#4b5563"
+' Grey 300
+!$LIGHT_GREY = "#d2d6dc"
+' Grey 100
+!$LIGHTER_GREY = "#f4f5f7"
+
+' Blue
+!$LIGHT_BLUE = "#a4cafe"
+
+' Red 700
+!$RED = "#c81e1e"
+' Red 100
+!$LIGHT_RED = "#fde8e8"
+
+' Green 700
+!$GREEN = "#046c4e"
+' Green 100
+!$LIGHT_GREEN = "#def7ec"
+
+' Orange 100
+!$LIGHT_ORANGE = "#fdf6b2"
+
+!$PRIMARY = "#fdfdea"
+!$PRIMARY_TEXT = $DARK_GREY
+!$PRIMARY_DARK = $DARK_GREY
+
+!$SUCCESS = $LIGHT_GREEN
+!$INFO = "#e1effe"
+!$WARNING = $LIGHT_ORANGE
+!$DANGER = $LIGHT_RED
+
+!$BLUE_50 = "#ebf5ff"
+!$BLUE_800 = "#1e429f"
+!$BLUE_900 = "#233876"
+
+!$GREY_800 = "#252f3f"
+
+skinparam dpi                   100
+skinparam shadowing             false
+' skinparam roundcorner           4
+' skinparam BoxPadding            2
+' skinparam Padding               2
+
+' skinparam HeaderFontColor $PRIMARY_TEXT
+' skinparam TitleFontColor $PRIMARY_TEXT
+
+skinparam MaxMessageSize 150
+
+skinparam database {
+    BackgroundColor #A7A8B1/#2A2B2A
+    BorderColor #0D122B
+}
+
+skinparam sequence {
+	ArrowColor #2A2B2A
+	
+	LifeLineBorderColor #0D122B
+	LifeLineBackgroundColor #B0BBD6
+
+    ActorBorderColor #0D122B
+    ActorBackgroundColor #FFFFFF
+	
+	'ParticipantBorderColor #0D122B
+	ParticipantBorderColor $DARK_GREY
+	'ParticipantBackgroundColor #274690
+	ParticipantBackgroundColor #233876
+	ParticipantFontColor #FFFFFF
+
+    ReferenceBorderColor #0D122B
+    ReferenceHeaderBackgroundColor #B0BBD6
+
+    ' StereotypeFontColor #FFF
+    ' StereotypeFontSize 10
+
+    BoxBorderColor $LIGHT_GREY
+    BoxBackgroundColor $LIGHTER_GREY
+}
+
+skinparam note {
+    TextAlignment left
+    FontName Courier
+    BackgroundColor #FFFFFF
+    BorderColor #2A2B2A
+    FontSize 13
+}
+
+skinparam object {
+    Padding 40
+    BackgroundColor #FFFFFF
+    BorderColor $DARK_GREY
+
+    FontSize 14
+    FontColor $DARK_GREY
+    FontName Courier
+
+    AttributeFontSize 12
+    AttributeFontName Courier
+}
+
+skinparam ActivityStartColor $GREY_800
+skinparam ActivityStopColor $GREY_800
+
+skinparam activity {
+    BorderColor $BLUE_800
+    BackgroundColor $BLUE_50
+    FontColor $GREY_800
+    FontName Open Sans, Helvetica Neue
+
+    ArrowColor $GREY_800
+
+    ' diamond
+    DiamondBorderColor $BLUE_900
+    DiamondBackgroundColor $BLUE_900
+    DiamondFontColor $BLUE_50
+}
+
+
+!$AUTHY_COLOR = "#D93831"
+!$HTTP = "#e5e7eb"
