@@ -128,3 +128,44 @@ skinparam activity {
 
 !$AUTHY_COLOR = "#D93831"
 !$HTTP = "#e5e7eb"
+
+skinparam rectangle {
+    FontColor #18181b
+
+    BackgroundColor<<service>> #a1a1aa
+    BorderColor<<service>> #27272a
+    FontColor<<service>> #27272a
+    
+    BackgroundColor<<role>> #e1effe
+    BorderColor<<role>> #1a56db
+
+    BackgroundColor<<pod>> #818cf8
+    BorderColor<<pod>> #312e81
+
+    BackgroundColor<<world>> #ffffff
+    BorderColor<<world>> #b43403
+    BorderStyle<<world>> dashed
+
+    BackgroundColor<<namespace>> #eef2ff
+    BorderColor<<namespace>> #3730a3
+    BorderStyle<<namespace>> dashed
+
+    BackgroundColor<<gateway>> #d1fae5
+    BorderColor<<gateway>> #047857
+
+    BackgroundColor<<load-balancer>> #fae8ff
+    BorderColor<<load-balancer>> #86198f
+
+}
+
+skinparam file {
+    BackgroundColor<<files>> #feecdc
+    BorderColor<<files>> #b43403
+    BackgroundColor<<volume>> #ffffff
+    BorderColor<<volume>> #b43403
+}
+
+skinparam database {
+    BackgroundColor<<DynamoDb>> #fef3c7
+    BorderColor<<DynamoDb>> #eab308
+}
