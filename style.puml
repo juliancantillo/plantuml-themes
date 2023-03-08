@@ -168,4 +168,7 @@ skinparam file {
 skinparam database {
     BackgroundColor<<DynamoDb>> #fef3c7
     BorderColor<<DynamoDb>> #eab308
+
+    BackgroundColor<<MongoDB>> #dcfce7
+    BorderColor<<MongoDB>> #166534
 }
