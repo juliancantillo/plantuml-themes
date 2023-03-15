@@ -57,10 +57,7 @@ skinparam shadowing             false
 
 skinparam MaxMessageSize 150
 
-skinparam database {
-    BackgroundColor #A7A8B1/#2A2B2A
-    BorderColor #0D122B
-}
+skinparam FontName Twilio Sans Mono
 
 skinparam sequence {
 	ArrowColor #2A2B2A
@@ -102,16 +99,16 @@ skinparam object {
 
     FontSize 14
     FontColor $DARK_GREY
-    FontName Courier
 
     AttributeFontSize 12
-    AttributeFontName Courier
 }
 
 skinparam ActivityStartColor $GREY_800
 skinparam ActivityStopColor $GREY_800
 
 skinparam activity {
+    FontName Twilio Sans Mono
+
     BorderColor $BLUE_800
     BackgroundColor $BLUE_50
     FontColor $GREY_800
@@ -130,6 +127,8 @@ skinparam activity {
 !$HTTP = "#e5e7eb"
 
 skinparam rectangle {
+    FontName Twilio Sans Mono
+
     FontColor #18181b
 
     BackgroundColor<<service>> #a1a1aa
@@ -159,6 +158,8 @@ skinparam rectangle {
 }
 
 skinparam file {
+    FontName Twilio Sans Mono
+
     BackgroundColor<<files>> #feecdc
     BorderColor<<files>> #b43403
     BackgroundColor<<volume>> #ffffff
@@ -166,6 +167,8 @@ skinparam file {
 }
 
 skinparam database {
+    FontName Twilio Sans Mono
+
     BackgroundColor<<DynamoDb>> #fef3c7
     BorderColor<<DynamoDb>> #eab308
 
