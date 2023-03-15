@@ -48,12 +48,6 @@
 
 skinparam dpi                   100
 skinparam shadowing             false
-' skinparam roundcorner           4
-' skinparam BoxPadding            2
-' skinparam Padding               2
-
-' skinparam HeaderFontColor $PRIMARY_TEXT
-' skinparam TitleFontColor $PRIMARY_TEXT
 
 skinparam MaxMessageSize 150
 
@@ -175,3 +169,12 @@ skinparam database {
     BackgroundColor<<MongoDB>> #dcfce7
     BorderColor<<MongoDB>> #166534
 }
+
+skinparam card {
+    BackgroundColor<<vpcEndpoint>> #fef3c7
+    BorderColor<<vpcEndpoint>> #92400e
+
+    BackgroundColor<<nlb>> #dbeafe
+    BorderColor<<nlb>> #1e40af
+}
+
