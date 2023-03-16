@@ -54,19 +54,21 @@ skinparam MaxMessageSize 150
 skinparam FontName Twilio Sans Mono
 
 skinparam sequence {
-	ArrowColor #2A2B2A
-	
-	LifeLineBorderColor #0D122B
-	LifeLineBackgroundColor #B0BBD6
+    FontName Twilio Sans Mono
+
+    ArrowColor #2A2B2A
+    
+    LifeLineBorderColor #0D122B
+    LifeLineBackgroundColor #B0BBD6
 
     ActorBorderColor #0D122B
     ActorBackgroundColor #FFFFFF
 	
-	'ParticipantBorderColor #0D122B
-	ParticipantBorderColor $DARK_GREY
-	'ParticipantBackgroundColor #274690
-	ParticipantBackgroundColor #233876
-	ParticipantFontColor #FFFFFF
+    'ParticipantBorderColor #0D122B
+    ParticipantBorderColor $DARK_GREY
+    'ParticipantBackgroundColor #274690
+    ParticipantBackgroundColor #233876
+    ParticipantFontColor #FFFFFF
 
     ReferenceBorderColor #0D122B
     ReferenceHeaderBackgroundColor #B0BBD6
